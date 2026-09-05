@@ -22,3 +22,132 @@ header h2 {
     color: #A8C7DD;
     margin: 10px 0;
 }
+nav {
+    background-color: #17324D;
+    padding: 18px 0;
+    text-align: center;
+}
+nav a {
+    color: #F7F4ED;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+}
+nav a:hover {
+    color: #A8C7DD;
+}
+section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: #F1EDE4;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+section h2 {
+    color: #17324D;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    border-bottom: 3px solid #A8C7DD;
+    padding-bottom: 10px;
+}
+section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: #F1EDE4;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+section h2 {
+    color: #17324D;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    border-bottom: 3px solid #A8C7DD;
+    padding-bottom: 10px;
+}
+section p {
+    font-size: 16px;
+    color: #34495E;
+    margin-bottom: 15px;
+}
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+}
+
+#skills li {
+    background-color: #A8C7DD;
+    color: #17324D;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+#projects table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#projects th {
+    background-color: #17324D;
+    color: #F7F4ED;
+    padding: 14px;
+    text-align: left;
+}
+
+#projects td {
+    padding: 14px;
+    border-bottom: 1px solid #A8C7DD;
+}
+
+#projects tr:hover {
+    background-color: #EAF1F5;
+}
+#resume {
+    text-align: center;
+}
+
+#resume p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+#contact li {
+    margin-bottom: 12px;
+}
+
+#contact a {
+    color: #17324D;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #A8C7DD;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    section {
+        margin: 25px 15px;
+        padding: 25px;
+    }
+
+    #skills ul {
+        grid-template-columns: 1fr;
+    }
+
+    #projects {
+        overflow-x: auto;
+    }
+}
